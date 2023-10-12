@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.toss_coin_game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2a139;
+    height: 100vh;
+    width: 100vw;
+}
+.coin_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+.tosscoin{
+    height: 150px;
+    width: 150px;
+}
+.coin_game_head{
+    color:#a35200;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:"Roboto" ;
+}
+.coin_details{
+    color:  #334155;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+.coinbt{
+    background-color: #f9d423;
+    color: #a35200;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+}
+.coin_count{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color: #475569;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 5px;    
+}
